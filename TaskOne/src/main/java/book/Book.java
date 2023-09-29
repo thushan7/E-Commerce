@@ -45,6 +45,13 @@ public class Book {
         }
     }
     public String toString() {
+        if () {
+//current task: deal with uninitialized member variables
+        }
+        else {
+
+        }
+
         String s = getTitle() + ": " + getAuthor();
         return s;
     }
