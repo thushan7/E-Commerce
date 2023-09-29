@@ -13,7 +13,7 @@ public class Runner {
         System.out.println("author: " + b.getAuthor());
 
         System.out.println("toString() method should output: 1984: George Orwell");
-        System.out.println(b.toString());
+        System.out.println(b);
 
         System.out.println("set and get borrowed status: true");
         b.setBorrowed(true);
