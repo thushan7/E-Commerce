@@ -3,7 +3,7 @@ package ecommerce;
 import java.util.ArrayList;
 
 public class ShoppingCart {
-    private ArrayList<Product> cart;
+    private ArrayList<Product> cart = new ArrayList<Product>();
 
 
     public void addProduct(Product p) {

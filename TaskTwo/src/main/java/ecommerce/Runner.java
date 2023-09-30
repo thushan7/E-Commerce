@@ -36,6 +36,43 @@ public class Runner {
         System.out.println("=========================================");
 
         ShoppingCart c = new ShoppingCart();
+
+        c.addProduct(p);
+        System.out.println("shopping cart with book");
+        System.out.println(c);
+
+        Product p2 = new Product();
+        p2.setProductId(456);
+        p2.setName("book2");
+        p2.setCost(7.0);
+        p2.setMarkUp(0.5);
+
+        c.addProduct(p2);
+        System.out.println("shopping cart with book2 added");
+        System.out.println(c);
+
+        c.removeProduct(p);
+        System.out.println("shopping cart with book removed");
+        System.out.println(c);
+
+        System.out.println("check cart for book, should be false");
+        System.out.println(c.hasProduct(p));
+
+        System.out.println("check cart for book2, should be true");
+        System.out.println(c.hasProduct(p2));
+
+        System.out.println("before tax price of cart with book added back, should be 18.75");
+        System.out.println(c.beforeTaxPrice());
+
+        System.out.println("total cart price, should be 21.19");
+        System.out.println(c.totalCartPrice());
+
+        System.out.println("cart size, should be 2");
+        System.out.println(c.getCartSize());
+
+        System.out.println("checkout function should output total cart price and clear cart");
+        System.out.println(c.checkout());
+        System.out.println("contents of shopping cart after checkout:");
         System.out.println(c);
     }
 }
