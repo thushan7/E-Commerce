@@ -62,9 +62,10 @@ public class Runner {
         System.out.println(c.hasProduct(p2));
 
         System.out.println("before tax price of cart with book added back, should be 18.75");
+        c.addProduct(p);
         System.out.println(c.beforeTaxPrice());
 
-        System.out.println("total cart price, should be 21.19");
+        System.out.println("total cart price, should be 22.5");
         System.out.println(c.totalCartPrice());
 
         System.out.println("cart size, should be 2");
