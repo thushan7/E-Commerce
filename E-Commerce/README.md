@@ -1,18 +1,6 @@
-# CIS2430 A1 - Task Two: E-Commerce
+# E-Commerce
 
-This program provides a simple e-commerce system, and a Runner class for testing this sytem.
-
-## Description
-
-The Product class provides the necessary variables and methods needed to simulate a product in this
-e-commerce system. Characteristics of a product include its name, product ID, wholesale cost, tax 
-rate (common to all products), and markup rate (varies among products). The Product class also
-provides a method for calculating the retail price of a product. The ShoppingCart class provides
-the necessary variables and methods needed to simulate a shopping cart of products in this e-commerce
-system. This class provides methods for adding products, removing products, finding number of products,
-checking for a product, calculating subtotal (before tax) and total (after tax), checking out, and
-displaying the contents of the cart. The Runner class guides the user through testing these two
-classes by providing various output.
+This program provides a general-purpose e-commerce system.
 
 ## Getting Started
 
@@ -74,33 +62,3 @@ checkout function should output total cart price and clear cart
 contents of shopping cart after checkout:
 
 ```
-
-## Limitations
-
-All functionality is complete. Based on assignment requirements, no errors are possible.
-
-## Author Information
-
-Thushan Subaskody (1219251)
-tsubasko@uoguelph.ca
-
-## Development History
-
-* 0.4
-    * Completed README file
-        * See commit "completed Task2 readme"
-* 0.3
-    * Completed Runner class
-        * See commits "began Runner class for Task2", "worked on Runner for Task2"
-* 0.2
-    * Completed Product class and ShoppingCart class
-        * See commit "completed Product class, ShoppingCart class, Runner class for Task1"
-* 0.1
-    * Set up repository
-        * See commit "set up repo"
-
-## Acknowledgments
-
-I used the following resources:
-* 1. JavaDocs for ArrayList class
-* 2. JavaDocs for Double class
